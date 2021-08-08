@@ -1,36 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <title>Document</title>
-</head>
-<body>
-    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-        <!-- logo -->
-        <a class="navbar-brand" href="#">JoGeo</a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
 
-        <!-- nav-button -->
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"
+      integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js"
+      integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
+      crossorigin="anonymous"
+    ></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <section id="landing-page">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-md navbar-dark">
+          <!-- logo -->
+          <a class="navbar-brand" href="#">JoGeo</a>
+          <!-- nav-button -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo01"
+            aria-controls="navbarTogglerDemo01"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
             <span class="navbar-toggler-icon"></span>
-        </button>
-        
-        <!-- nav-items -->
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          </button>
+          <!-- nav-items -->
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a href="#jo" class="nav-link">Contact</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#jo" class="nav-link">Pricing</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#jo" class="nav-link">Download</a>
-                </li>
+              <li class="nav-item">
+                <a href="#jo" class="nav-link">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a href="#jo" class="nav-link">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a href="#jo" class="nav-link">Download</a>
+              </li>
             </ul>
+          </div>
+        </nav>
+
+        <!-- Grid-layout  -->
+        <div class="">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6 header">
+                <h1>
+                  <span style="color: rgb(0, 0, 0)">Calculator</span>
+                </h1>
+                <p>
+                  <span style="color: rgb(0, 0, 0)">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Rem possimus
+                  </span>
+                </p>
+                <button class="btn btn-success">Download</button>
+                <button class="btn btn-outline-light">Source</button>
+              </div>
+              <div class="col-md-6 image-div">
+                <img src="main-image.png" alt="" id="phone-image" />
+              </div>
+            </div>
+          </div>
         </div>
-    </nav>
-</body>
+      </div>
+    </section>
+  </body>
 </html>

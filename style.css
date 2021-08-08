@@ -1,0 +1,26 @@
+#landing-page {
+  height: 100vh;
+  background-color: rgb(255, 152, 25);
+}
+
+.navbar {
+  background-color: rgb(255, 152, 25);
+}
+
+.btn{
+    width: 100px;
+    margin-right: 15px;
+}
+
+.container-fluid {
+  padding: 3% 20%;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .container-fluid {
+    padding: 0;
+  }
+
+}
